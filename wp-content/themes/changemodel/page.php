@@ -9,19 +9,35 @@
 	<div id="container">
 		
 		<div id="header">
+			<div id="logo">
+				<a href="http://itp.nyu.edu/changemodel/">
+					<img width="300" height="100" alt="Just another WordPress site" src="http://itp.nyu.edu/changemodel/wp-content/uploads/2011/08/cropped-change_model.jpg" />
+				</a>
+			</div>
 
-
-		        <div id="logo">
-		            <a href="http://itp.nyu.edu/changemodel/"><img width="300" height="100" alt="Just another WordPress site" src="http://itp.nyu.edu/changemodel/wp-content/uploads/2011/08/cropped-change_model.jpg"></a>
-		        </div><!-- end of #logo -->        
-
-					    <ul class="menu" id="menu-change-model"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187" id="menu-item-187"><a href="http://itp.nyu.edu/changemodel/?page_id=71">About</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191" id="menu-item-191"><a href="http://itp.nyu.edu/changemodel/?page_id=2">Program</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-116 current_page_item menu-item-186" id="menu-item-186"><a href="http://itp.nyu.edu/changemodel/?page_id=116">People</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188" id="menu-item-188"><a href="http://itp.nyu.edu/changemodel/?page_id=17">Workshops</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189" id="menu-item-189"><a href="http://itp.nyu.edu/changemodel/?page_id=13">Registration</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190" id="menu-item-190"><a href="http://itp.nyu.edu/changemodel/?page_id=10">Why</a></li>
-		</ul>                
+			<ul class="menu" id="menu-change-model">
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187" id="menu-item-187">
+					<a href="http://itp.nyu.edu/changemodel/?page_id=71">About</a>
+				</li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191" id="menu-item-191">
+					<a href="http://itp.nyu.edu/changemodel/?page_id=2">Program</a>
+				</li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-116 current_page_item menu-item-186" id="menu-item-186">
+					<a href="http://itp.nyu.edu/changemodel/?page_id=116">People</a>
+				</li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188" id="menu-item-188">
+					<a href="http://itp.nyu.edu/changemodel/?page_id=17">Workshops</a>
+				</li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189" id="menu-item-189">
+					<a href="http://itp.nyu.edu/changemodel/?page_id=13">Registration</a>
+				</li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190" id="menu-item-190">
+					<a href="http://itp.nyu.edu/changemodel/?page_id=10">Why</a>
+				</li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190" id="menu-item-190">
+					<a href="#">Wiki</a>
+				</li>
+			</ul>               
 		</div>
 		
 		<div id="left">

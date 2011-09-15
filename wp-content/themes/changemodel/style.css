@@ -22,7 +22,8 @@ ______________________________________________________ */
 }
 
 #left {
-	width: 700px;
+	width: 650px;
+	padding-right: 50px;
 	float: left;
 }
 
@@ -34,16 +35,23 @@ ______________________________________________________ */
 /*	Fonts
 ______________________________________________________ */
 
-h1, h2, h3 { font-weight: normal; margin: 0 0 10px 0; }
-h1 { }
-h2 { }
+h1, h2, h3, h4 { font-weight: normal; margin: 0 0 10px 0; }
+h1 { margin-bottom: 30px; }
+h2 { margin-bottom: 15px; }
 h3 { }
+
 
 p { margin: 0 0 10px 0; }
 a { }
 a:hover { } 
 
-blockquote { }
+blockquote { 
+	margin: 20px 30px 20px 20px;
+	font-style: italic;
+	color: #447099;
+	font-size: 13px;
+}
+
 blockquote p { }
 
 ul, ol { margin: 0 0 10px 0; }
