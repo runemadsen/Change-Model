@@ -1,0 +1,202 @@
+/*	Reset
+______________________________________________________ */
+
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	background: white; 
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+/*	Layout
+______________________________________________________ */
+
+#container { 
+	width: 960px; 
+	margin: 0 auto; 
+}
+
+#left {
+	width: 700px;
+	float: left;
+}
+
+#right {
+	width: 260px;
+	float: left;
+}
+
+/*	Fonts
+______________________________________________________ */
+
+h1, h2, h3 { font-weight: normal; margin: 0 0 10px 0; }
+h1 { }
+h2 { }
+h3 { }
+
+p { margin: 0 0 10px 0; }
+a { }
+a:hover { } 
+
+blockquote { }
+blockquote p { }
+
+ul, ol { margin: 0 0 10px 0; }
+
+/*	Menu
+______________________________________________________ */
+
+.menu {
+    background: none repeat scroll 0 0 #444444;
+    clear: both;
+		margin-bottom: 40px;
+}
+
+.menu:after, .menu ul:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.menu, .menu ul {
+    min-height: 0;
+}
+
+.menu, .menu ul {
+    display: block;
+    list-style-type: none;
+}
+
+.menu li {
+    border: 0 none;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 5;
+}
+
+.menu a {
+    border-left: 1px solid #333333;
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 44px;
+    margin: 0;
+    padding: 0 1em;
+    position: relative;
+    text-decoration: none;
+}
+
+/*	Right
+______________________________________________________ */
+
+#right h2 {
+	background: none repeat scroll 0 0 #F5F5F5;
+	color: #444444;
+	padding: 5px 10px;
+}
+
+#right ul li {
+	list-style: none;
+}
+
+#right ul li a {
+	color: #444444;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/*	Tools
+______________________________________________________ */
+
+.clear { 
+	clear: both; 
+}
+
+/*	Other Stuff
+______________________________________________________ */
+
+.screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
+
+.post { }
+
+.entry { }
+.entry a { }
+.entry a:hover { }
+
+pre { }
+code, tt { }
+
+#meta { }
+.postmetadata { }
+
+#sidebar { }
+
+.navgation { }
+   .next-posts { }
+   .prev-posts { }
+
+#searchform { }
+	#s { }
+	#searchsubmt { }
+	
+ol.commentlist { list-style: none; }
+ol.commentlist li { }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor { }
+ol.commentlist li.byuser { }
+ol.commentlist li.comment-author-admin { }
+ol.commentlist li.comment { border-bottom: 1px dotted #666; padding: 10px; }
+ol.commentlist li.comment div.comment-author { }
+ol.commentlist li.comment div.vcard { }
+ol.commentlist li.comment div.vcard cite.fn { font-style: normal; }
+ol.commentlist li.comment div.vcard cite.fn a.url { }
+ol.commentlist li.comment div.vcard img.avatar { float:right; margin: 0 0 10px 10px; }
+ol.commentlist li.comment div.vcard img.avatar-32 { }
+ol.commentlist li.comment div.vcard img.photo { }
+ol.commentlist li.comment div.vcard span.says { }
+ol.commentlist li.comment div.commentmetadata { }
+ol.commentlist li.comment div.comment-meta { font-size: 10px; }
+ol.commentlist li.comment div.comment-meta a { color: #ccc; }
+ol.commentlist li.comment p { }
+ol.commentlist li.comment ul { }
+ol.commentlist li.comment div.reply { font-size: 11px; }
+ol.commentlist li.comment div.reply a { font-weight: bold; }
+ol.commentlist li.comment ul.children { list-style: none; margin: 10px 0 0; }
+ol.commentlist li.comment ul.children li { }
+ol.commentlist li.comment ul.children li.alt { }
+ol.commentlist li.comment ul.children li.bypostauthor { }
+ol.commentlist li.comment ul.children li.byuser { }
+ol.commentlist li.comment ul.children li.comment { }
+ol.commentlist li.comment ul.children li.comment-author-admin { }
+ol.commentlist li.comment ul.children li.depth-2 { border-left: 5px solid #555; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-3 { border-left: 5px solid #999; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-4 { border-left: 5px solid #bbb; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-5 { }
+ol.commentlist li.comment ul.children li.odd { }
+ol.commentlist li.even { background: #fff; }
+ol.commentlist li.odd { background: #f6f6f6; }
+ol.commentlist li.parent { border-left: 5px solid #111; }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even { }
+ol.commentlist li.thread-odd { }
+
+form { }
+input[type=text] { }
+textarea { }
